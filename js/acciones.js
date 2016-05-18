@@ -44,10 +44,10 @@ function Error(){
 //Exito al Localizar
 function Localiza(posicion){
 	var element=document.getElementById('geolocalizacion');
-	element.innerHTML='Latitud:' +posicion.coords.latitude+'<br/'+
+	element.innerHTML='Latitud:'+posicion.coords.latitude+'<br/>'+
 	'Longitud:'+posicion.coords.longitude+'<br/>' +
-	'Precicision:' +posicion.coords.accuracy+'<br/>'+
-	'Precicision:' +posicion.timestamp+'<br/>';
+	'Precision:'+posicion.coords.accuracy+'<br/>'+
+	'Intervalo:'+posicion.timestamp+'<br/>';
 }
 //Error en la geolocalizacion
 function ErrorLocalizacion(error){
