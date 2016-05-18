@@ -34,7 +34,7 @@ function Correcto(acceleration){
 	
 	element.innerHTML='Aceleracion en X:'+acceleration.x+'<br/>'+
 	'Aceleracion en Y:'+acceleration.y+'<br/>'+
-	'intervalo'+acceleration.timestamp+'<br/>';
+	'intervalo:'+acceleration.timestamp+'<br/>';
 }
 
 //eRROR:FALLA al obtener la aceleracion
